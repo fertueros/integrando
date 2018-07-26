@@ -3,7 +3,7 @@
 %%%%
 % PLOTS mapas
 % eval=FALSE
-% results=HIDE (verbatim default)
+% results=HIDE (verbatim default) %para quitar los comentarios cuando se cargan los paquetes
 %%%%
 \usepackage[utf8]{inputenc}
 \usepackage{longtable}
@@ -215,7 +215,7 @@ Como se vió en la Tabla \ref{regresiones}, cuando está presente el \emph{indic
 
 Estos son los lugares donde tenemos información:
 
-<<getMap, echo=FALSE,results=verbatim>>=
+<<getMap, echo=FALSE,results=HIDE>>=
 library(rgdal)
 folder='world_map'
 file='world_map.shp'

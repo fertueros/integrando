@@ -165,7 +165,7 @@ LinRegB = lm(Democracy ~ ., data = dataidx[,c(2:5)])
 @
 
 
-<<regresionesPlot,results=tex, echo=false>>=
+<<regresionesPlot, results=tex, echo=false>>=
 stargazer(LinRegA,LinRegB,title = "Modelos de Regresión")
 @
 

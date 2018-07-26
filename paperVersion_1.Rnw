@@ -7,8 +7,8 @@
 % par(mfrow=c(filas,columnas))
 % stargazer and report table packages
 
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
+\usepackage[utf8]{inputenc} % esto es para español
+\usepackage{longtable} % esto es para tabla
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
